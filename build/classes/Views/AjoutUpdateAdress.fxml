@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="642.0" prefWidth="683.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.AjoutUpdateAdressController">
+   <children>
+      <TextArea fx:id="idadress_upd_del" layoutX="139.0" layoutY="30.0" prefHeight="40.0" prefWidth="120.0" />
+      <TextArea fx:id="num_bati_upd_dele" layoutX="434.0" layoutY="222.0" prefHeight="57.0" prefWidth="177.0" />
+      <TextArea fx:id="code_postal_upd_dele" layoutX="111.0" layoutY="222.0" prefHeight="57.0" prefWidth="177.0" />
+      <TextArea fx:id="ville_upd_dele" layoutX="434.0" layoutY="351.0" prefHeight="57.0" prefWidth="177.0" />
+      <TextArea fx:id="rue_upd_dele" layoutX="111.0" layoutY="351.0" prefHeight="57.0" prefWidth="177.0" />
+      <TextArea fx:id="pays_upd_dele" layoutX="434.0" layoutY="491.0" prefHeight="57.0" prefWidth="177.0" />
+      <TextArea fx:id="gover_upd_del" layoutX="111.0" layoutY="491.0" prefHeight="57.0" prefWidth="177.0" />
+      <Button fx:id="updttt" layoutX="150.0" layoutY="579.0" mnemonicParsing="false" onMouseClicked="#modif_add" text="Modifer" />
+      <Button fx:id="delettt" layoutX="482.0" layoutY="579.0" mnemonicParsing="false" onMouseClicked="#delete_add" text="Supprimer" />
+      <Button fx:id="backtt" layoutX="35.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#retour_add" text="Retour" />
+      <Text layoutX="152.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CODE POSTAL" />
+      <Text layoutX="186.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RUE" />
+      <Text layoutX="139.0" layoutY="472.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GOVERNOUMENT" />
+      <Text layoutX="323.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IDUSER" />
+      <Text layoutX="464.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero Batiment" />
+      <Text layoutX="509.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VILLE" />
+      <Text layoutX="509.0" layoutY="472.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAYS" />
+      <ComboBox fx:id="comb_id_user_upd_del" layoutX="259.0" layoutY="106.0" prefHeight="57.0" prefWidth="177.0" />
+   </children>
+</AnchorPane>
